@@ -1,0 +1,25 @@
+Git Commands 
+
+git clone "URI" - to clone the repo
+git remote -v  - to make the local copy of the repo 
+git add . - moves all the changes to the staging area
+git commit -m "message" - make commit to the branch 
+git add file1 file2 file3 -  add only the specified file to the stagging area
+git reset - reset and remove all the files from stagging area
+git reset file1 file2 file3 - reset only the specified file from the stagging area
+git status - provide the status of the current repo 
+git branch - list the number of branches available 
+git branch BranchName - add the new branch to the repo 
+git checkout BranchName - to switch the branch 
+git show hash of commit - shows the commits made on the branch 
+git show --name-only hash - shows the filenames only 
+git reflog - shows all the details made on all the branches
+git push - to push the entire local repo to the git hub
+git pull - pull the repo from the git hub 
+git merge branchname - merge the branch with the main branch 
+git revert hash - revert the changes completely - mostly used when working alone
+git reset - reset the last commit 
+git reset --soft - resets the commit history but keep changes
+git reset -- hard - reset the history and discard the changes 
+git push -f - forces the push to match the local repo 
+git push -u origin branch name - to push the branch 
